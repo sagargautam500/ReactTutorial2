@@ -1,0 +1,15 @@
+#root {
+  /* max-width: 1280px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 2rem; */
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  background-color: cadetblue;
+  width:min-content;
+}
+
+.sg-heading{
+  background-color: azure;
+}

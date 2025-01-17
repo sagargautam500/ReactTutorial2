@@ -1,0 +1,16 @@
+.buttonsContainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  }
+  .buttons{
+  width: 90px;
+  height: 55px;
+  margin: 3px;
+  border-radius: 10px;
+  background-color: rgb(137, 143, 143);
+  
+  }
+  .buttons:hover{
+    opacity: 70%;
+  }

@@ -1,0 +1,13 @@
+.sgColor{
+  font-weight: 600;
+  font-size: larger;
+  background-color: rgb(198, 232, 232);
+  
+}
+.Btn{
+  float: right;
+}
+
+.Btn:active {
+  background-color: pink;
+}
