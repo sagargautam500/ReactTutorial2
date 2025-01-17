@@ -1,0 +1,1 @@
+This project serves as a comprehensive guide to learning React.js, showcasing essential concepts such as components, props, state, lifecycle methods, hooks, and basic routing. Ideal for beginners aiming to understand and practice React development.
