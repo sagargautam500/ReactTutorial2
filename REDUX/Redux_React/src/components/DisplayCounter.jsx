@@ -5,7 +5,7 @@ function DisplayCounter() {
   const counter=useSelector((state)=>state.counter)
   return (
     <>
-      <p className="lead mb-4">
+      <p className="lead mb-4 displayValue">
         Counter current Value:{counter}
       </p>
     </>
