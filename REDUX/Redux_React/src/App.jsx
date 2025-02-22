@@ -1,16 +1,23 @@
-import './App.css'
+import "./App.css";
+import Container from "./components/Container";
+import Controls from "./components/Controls";
+import DisplayCounter from "./components/DisplayCounter";
+import Header from "./components/Header";
 
 function App() {
-
-  console.log("react-redux......................!")
   return (
-    <>
-      <h1>React_Redux:</h1>
-      
-      <button type="button" className="btn btn-success">Success</button>
-      
-    </>
-  )
+    <center>
+      <div className="px-4 py-5 my-5 text-center">
+        <Container>
+          <Header />
+          <div className="col-lg-6 mx-auto">
+            <DisplayCounter />
+            <Controls />
+          </div>
+        </Container>
+      </div>
+    </center>
+  );
 }
 
-export default App
+export default App;
