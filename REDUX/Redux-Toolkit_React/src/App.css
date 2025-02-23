@@ -1,0 +1,29 @@
+#root {
+  max-width: 1380px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.card {
+  padding: 2em;
+}
+
+.controlButton{
+  margin-top: 10px;
+}
+.controlButton input{
+  max-width: 110px;
+  border-radius: 5px;
+}
+.reset-toggle{
+  margin-top: 30px;
+  padding: 10px;
+}
+.displayValue{
+  font-weight: 400;
+}
+.headerCount{
+  text-decoration: underline;
+}
